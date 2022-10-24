@@ -15,7 +15,7 @@ if cost.isPartner == true{
     print("He isn't a partner.")
 }
 
-// Discount
+// Info about discount
 if cost.sum > 0, cost.sum < 501, cost.isPartner == true{
     print("His discount equals to 5 percents.")
 } else if cost.sum > 0, cost.sum < 501{
